@@ -1,12 +1,9 @@
 import Sentiment from 'sentiment';
+import { getInnerText } from './getInnerText';
 
 const sentiment = new Sentiment();
 
 chrome.tabs.onSelectionChanged.addListener(() => {
-  function getInnerText() {
-    return document.body.innerText;
-  }
-
   const code = `(${getInnerText.toString()})();`;
 
   chrome.tabs.executeScript(
