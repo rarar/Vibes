@@ -28,11 +28,11 @@ yarn build
 
 ### Previewing the Extension in Chrome
 
-1. Run either the `yarn develop` or `yarn build` commands
+1. Run the `yarn build` command
 
-The `dist` folder should contain the files required for loading an unpacked extension.
+The `dist` folder should be generated and contain the files required for loading an unpacked extension.
 
-2. Navigate to [`chrome://extensions/`](chrome://extensions/)
+2. Navigate to `chrome://extensions/`
 
 3. Click "Load unpacked" and select the `dist` folder
 
