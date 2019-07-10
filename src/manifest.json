@@ -1,0 +1,22 @@
+{
+  "name": "Vibes",
+  "version": "0.1.0",
+  "description": "How's your browser activity treating you",
+  "author": "Raphael Arar",
+  "permissions": [
+    "http://*/",
+    "https://*/",
+    "activeTab",
+    "declarativeContent",
+    "storage",
+    "tabs",
+    "background"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {},
+  "icons": {},
+  "manifest_version": 2
+}
